@@ -118,7 +118,7 @@ The IoU for the mining class improves progressively, demonstrating the model's a
 
 ### Boundary mIoU
 
-![Boundary mIoU](assets/val_boundary_mIoU.svg)
+![Boundary mIoU](assets/val_Boundary_mIoU.svg)
 
 Boundary mIoU indicates improved delineation of mining regions, capturing finer spatial details.
 
@@ -141,8 +141,8 @@ These results confirm that the model successfully captures both:
 
 ### Example Predictions
 
-![](predictions_visuals/sample_000.svg)
-![](predictions_visuals/sample_001.svg)
+![](predictions_visuals/sample_000.png)
+![](predictions_visuals/sample_001.png)
 
 The model demonstrates:
 
