@@ -141,8 +141,8 @@ These results confirm that the model successfully captures both:
 
 ### Example Predictions
 
-![](predictions_visuals/sample_000.png)
-![](predictions_visuals/sample_001.png)
+![Example 1 — Sparse Mining Detection under Class Imbalance](predictions_visuals/sample_000.png)
+![Example 2 — Detected Mining Regions with Clear Boundaries](predictions_visuals/sample_001.png)
 
 The model demonstrates:
 
