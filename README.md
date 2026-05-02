@@ -65,7 +65,7 @@ This work uses the SmallMinesDS dataset for informal mining detection.
 
 ![Dataset Pipeline](assets/Dataset_and_Preprocessing.svg)
 
-The dataset includes multitemporal satellite data (T1: 2016, T2: 2022) and reference masks...
+The dataset includes multitemporal satellite data (T1: 2016, T2: 2022) and reference masks.
 
 ## ⚙️ Training Strategy
 
