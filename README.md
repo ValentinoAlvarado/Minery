@@ -36,7 +36,7 @@ This allows the model to learn **change-aware representations**, rather than rel
 
 The proposed approach is based on fine-tuning a foundation model (Prithvi) with hyperparameter optimization.
 
-![Methodology](assets/Experimental Methodology.png)
+![Methodology](assets/Experimental_Methodology.png)
 
 The workflow includes data preprocessing, Optuna-based hyperparameter optimization, and comparative evaluation against baseline models.
 
@@ -63,7 +63,7 @@ Freezing the backbone ensures:
 
 This work uses the SmallMinesDS dataset for informal mining detection.
 
-![Dataset Pipeline](assets/Dataset and Preprocessing.png)
+![Dataset Pipeline](assets/Dataset_and_Preprocessing.png)
 
 The dataset includes multitemporal satellite data (T1: 2016, T2: 2022) and reference masks...
 
