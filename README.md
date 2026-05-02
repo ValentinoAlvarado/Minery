@@ -32,6 +32,14 @@ This allows the model to learn **change-aware representations**, rather than rel
 
 ---
 
+## Methodology
+
+The proposed approach is based on fine-tuning a foundation model (Prithvi) with hyperparameter optimization.
+
+![Methodology](assets/Experimental Methodology.png)
+
+The workflow includes data preprocessing, Optuna-based hyperparameter optimization, and comparative evaluation against baseline models.
+
 ## 🧩 Model Architecture
 
 - Backbone: `prithvi_eo_v2_600_tl` (pretrained, frozen)
@@ -50,6 +58,14 @@ Freezing the backbone ensures:
 - Focused learning on segmentation  
 
 ---
+
+## Dataset and Preprocessing
+
+This work uses the SmallMinesDS dataset for informal mining detection.
+
+![Dataset Pipeline](assets/Dataset and Preprocessing.png)
+
+The dataset includes multitemporal satellite data (T1: 2016, T2: 2022) and reference masks...
 
 ## ⚙️ Training Strategy
 
